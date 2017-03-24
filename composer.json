@@ -1,0 +1,22 @@
+{
+    "name": "vorgas/zfa-problems",
+    "description": "Integrates with Apigility to create a custom body for Api problems",
+    "keywords": ["apigility", "problem"],
+    "homepage": "https://github.com/vorgas/zfa-problems",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Hill",
+            "email": "mikehill.pointless@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "zfcampus/zf-api-problem": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "vorgas\\ZfaProblems\\": "src"
+        }
+    }
+}
